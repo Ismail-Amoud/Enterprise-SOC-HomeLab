@@ -44,6 +44,12 @@ These eight case studies group **20 documented lab milestones**. The eighth proj
 
 The [RDP Failed Logon Investigation](06-rdp-investigation/README.md) documents a review of **15 Windows Event ID 4625** records observed in the lab timeline, with Wazuh rule **60122** and possible MITRE ATT&CK mapping **T1110 (Brute Force)**. These failures alone **do not prove a successful compromise**.
 
+## Consolidated investigation
+
+**[Windows RDP Failed-Logon Investigation — case study](investigations/windows-rdp-failed-logons/README.md)**
+
+This case study consolidates the separate Windows authentication investigation into the Home Lab: **15 documented failed logons (Event ID 4625)**, Wazuh rule **60122**, event-collection analysis and a contextual MITRE ATT&CK **T1110** assessment. An older claim involving a **60204** correlation alert is [preserved for verification](investigations/windows-rdp-failed-logons/SOURCE-REVIEW.md), not presented as confirmed. No raw sensitive infrastructure details or original diagrams were transferred.
+
 ## Evidence status
 
 The reported work is based on the existing lab timeline and portfolio documentation. **No raw log exports, executed query transcripts or authentic dashboard screenshots have yet been uploaded** to this public repository. Conclusions and limitations are distinguished in each project. To add verified and redacted proofs later, use the [evidence template](docs/EVIDENCE-TEMPLATE.md).
