@@ -16,6 +16,8 @@ Reviewed a documented set of 15 Windows failed-logon events observed on 13 July 
 
 Observed repeated authentication failures; this does not prove successful intrusion.
 
+> **Detailed case study:** [Windows RDP Failed-Logon Investigation](../investigations/windows-rdp-failed-logons/README.md). This page remains an infrastructure milestone summary, not a separate investigation.
+
 ## Evidence and limitations
 
 The information above is drawn from the previously documented home-lab timeline. Raw server logs, exact commands and authenticated dashboard screenshots are **not** included in this public version. Reported results should be supported with personally verified, redacted artefacts before making more specific claims. Do not invent test outcomes or pass synthetic examples off as real logs.
